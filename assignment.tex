@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt,english,swedish]{article}
+\documentclass[a4paper,10pt,english]{article}
 
 % Customized for UNIX and XeTeX (Does NOT work with PDFLaTeX)
 
@@ -66,10 +66,6 @@
 %\renewcommand{\sfdefault}{lmss}
 %\renewcommand{\ttdefault}{lmtt}
 
-% Listings
-\renewcommand\listingscaption{Programkod}
-\renewcommand\listoflistingscaption{Programkodsförteckning}
-
 % Mint
 % You can select a different style here:
 %\usemintedstyle{monokai}
@@ -107,21 +103,19 @@
 
 % Header and footer
 \pagestyle{fancy}
-\lhead{\course\ -\ Inlämning \assignmentnr}
+\lhead{\course\ -\ Assignment \assignmentnr}
 \rhead{\theauthor\ -\ \thedate}
 \renewcommand{\headrulewidth}{0pt}
 
 % Language
-\setdefaultlanguage{swedish}
-% Surround english text with "\textenglish{}"
-\setotherlanguage{english}
+\setdefaultlanguage{english}
 
 % Paragraphs
 \setlength{\parskip}{\smallskipamount}
 \setlength{\parindent}{0pt}
 
 % Metadata
-\title{Inlämning \assignmentnr\ - \course\ \coursename}
+\title{Assignment \assignmentnr\ - \course\ \coursename}
 \date{\thedate}
 \author{\theauthor}
 \begin{document}
